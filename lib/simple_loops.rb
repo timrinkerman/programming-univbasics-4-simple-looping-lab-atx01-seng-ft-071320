@@ -25,11 +25,10 @@ def output_array(array)
 end  
 
 def return_string_array(array)
-  newString = array.to_s
   count = 0 
   newArray = []
   while count < array.length do
-    newArray.push(newString)
+    newArray << array[count].to_s
     count += 1 
   end
   puts newArray
