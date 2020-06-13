@@ -16,4 +16,6 @@ end
 
 
 
-def output_array()
+def output_array(array, number)
+  
+  
